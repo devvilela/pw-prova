@@ -10,7 +10,6 @@ async function fetchMunicipios(UF) {
 const municipios = await fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/${UF}/municipios`);
 const municipiosJson = await municipios.json();
 municipiosJson.forEach(element => {
-console.log(element)
 let li = document.createElement("li");
 let p = document.createElement("p");
 let btn = document.createElement("button");

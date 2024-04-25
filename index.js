@@ -4,7 +4,6 @@ async function fetchEstados() {
 const estados = await fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados');
 const estadosUF = await estados.json();
 estadosUF.forEach(element => {
-    console.log(element);
     let estadoSigla = element.sigla;
     let li = document.createElement("li");
     let a = document.createElement("a");
