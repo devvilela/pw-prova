@@ -1,0 +1,19 @@
+ul li {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: #ff4136 ;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+    height: 38px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
