@@ -1,5 +1,3 @@
-
-
 const ul = document.querySelector("#estado-list");
 
 async function fetchEstados() {
